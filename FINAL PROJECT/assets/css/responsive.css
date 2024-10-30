@@ -1,0 +1,122 @@
+@media all and (max-width:1450px){
+    .logo {
+        position: inherit;
+        margin: 0;
+    }
+}
+
+@media all and (max-width:1200px){
+    .containner{
+        width: 90%;
+    }
+}
+
+
+@media all and (max-width:1100px){
+    .header-top nav.menu{
+        display:none;
+    }
+    .menu-bar{
+        display:block;
+    }
+    
+    .header-area {
+        background: none;
+    }
+    .banner-content {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding: 5rem 0;
+        
+    }  
+    .banner-content h1 {
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .banner-content p {
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+}
+
+
+@media all and (max-width:800px) {
+    .service{
+        grid-template-columns: 1fr;
+    }
+    .news{
+        grid-template-columns: 1fr;
+    }
+    .about-content{
+        grid-template-columns:1fr;
+    }
+    .about-left img {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 5rem;
+    }
+    .works{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media all and (max-width:650px) {
+        .footer-menu ul{
+             flex-wrap: wrap;
+}
+}
+
+
+@media all and (max-width:500px) {
+   
+    .banner-content {
+        padding: 3rem 0;
+    }
+    .banner-content h1{
+        font-size: 5rem;
+    }
+    
+}
+@media all and (max-width:600px) {
+
+    .work-headding h2,
+    .footer-content h2{
+        line-height: 4rem;
+        font-size: 3.5rem;
+    }
+    .contact-group{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media all and (max-width:470px) {
+    .header-buttons form,.btn-style-1{
+        display: none;
+    }
+    .about-right h3{
+        font-size: 3.5rem;
+    }
+   
+    .works{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media all and (max-width:450px) {
+    .buttons {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .buttons a.btn-style-3 {
+        margin-left: 0;
+    }
+    .btn-style-3{
+        margin-top: 3rem;
+    }
+}
+
